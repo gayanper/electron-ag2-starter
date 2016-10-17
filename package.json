@@ -1,0 +1,39 @@
+{
+  "name": "electrogram",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "distribute": "electron-packager . Electrogram --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/electrogram  --asar"
+  },
+  "author": "One Hungry Mind",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "electron-packager": "8.1.0",
+    "electron": "1.4.3",
+    "electron-reload": "1.0.2",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "awesome-typescript-loader": "2.2.4",
+    "typescript": "2.0.3",
+    "typings": "1.4.0",
+    "uglify-js": "^2.7.0",
+    "url-loader": "^0.5.7",
+    "webpack": "1.13.2"
+  },
+  "dependencies": {
+    "@angular/common": "2.1.0",
+    "@angular/compiler": "2.1.0",
+    "@angular/core": "2.1.0",
+    "@angular/platform-browser": "2.1.0",
+    "@angular/platform-browser-dynamic": "2.1.0",
+    "material-design-lite": "1.2.1",
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-rc.1",
+    "zone.js": "0.6.25"
+  }
+}
