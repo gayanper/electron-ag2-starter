@@ -64,7 +64,7 @@ Gayan Perera
 [Google+](https://plus.google.com/u/0/118381159417397489677)
 
 ## Credits
-This boilerplat code is inpired by the following projects.  
+This boilerplat code is inspired by the following projects.  
 [Official Quick Start](https://angular.io/docs/ts/latest/quickstart.html)  
 [Image Size Calculator](https://github.com/auth0-blog/angular2-electron)  
 
