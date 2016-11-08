@@ -1,5 +1,5 @@
 {
-  "name": "electrogram",
+  "name": "electron-ag2-starter",
   "version": "0.0.1",
   "description": "",
   "main": "main.js",
@@ -7,9 +7,9 @@
     "start": "electron main.js",
     "build": "webpack --progress --profile --colors --display-error-details --display-cached",
     "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
-    "distribute": "electron-packager . Electrogram --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/electrogram  --asar"
+    "distribute": "electron-packager . ElectronAG2Starter --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/app  --asar"
   },
-  "author": "One Hungry Mind",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.23.1",
