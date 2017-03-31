@@ -7,7 +7,9 @@
     "start": "electron main.js",
     "build": "webpack --progress --profile --colors --display-error-details --display-cached",
     "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
-    "distribute": "electron-packager . ElectronAG2Starter --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/app  --asar"
+    "distribute": "electron-packager . ElectronAG2Starter --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/app  --asar",
+    "electron": "npm run build && npm run start"
+
   },
   "author": "",
   "license": "MIT",
@@ -23,7 +25,8 @@
     "typings": "1.4.0",
     "uglify-js": "^2.7.0",
     "url-loader": "^0.5.7",
-    "webpack": "1.13.2"
+    "webpack": "1.13.2",
+    "@types/node": "7.0.12"
   },
   "dependencies": {
     "@angular/common": "^2.3.1",

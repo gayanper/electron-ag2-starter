@@ -5,18 +5,16 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": ["dom","es2015"]
   },
   "exclude": [
     "node_modules",
-    "releases",
-    "typings/main.d.ts",
-    "typings/main"
+    "releases"
   ],
   "filesGlob": [
     "./src/app/**/*.ts",
-    "!./node_modules/**/*.ts",
-    "typings/index.d.ts"
+    "!./node_modules/**/*.ts"
   ],
   "awesomeTypescriptLoaderOptions": {
     "resolveGlobs": true,
